@@ -1,0 +1,33 @@
+.corpo{
+background-color: #F8F8FF;
+
+
+}
+
+.container {
+border: 2px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+
+.container > div {
+background-color: #B0E0E6;
+margin: 10px;
+border-radius: 5px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.b1 {
+flex: 1 2 300px
+
+}
+
+.b2 {
+    flex: 1 2 300px 200px
+    }
